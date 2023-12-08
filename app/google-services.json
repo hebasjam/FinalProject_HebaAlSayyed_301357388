@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "691117386934",
+    "project_id": "hebaalsayyed301357388",
+    "storage_bucket": "hebaalsayyed301357388.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691117386934:android:f27e36a5b21dd91c3b8a17",
+        "android_client_info": {
+          "package_name": "com.example.finalproject_hebaalsayyed_301357388"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVn_KoXQxbn458D_QGaF0s2wUqmvmlWC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

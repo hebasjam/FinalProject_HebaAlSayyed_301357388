@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories" >
+        <item>Restaurants</item>
+        <item>Parks</item>
+        <item>Museums</item>
+        <item>Shopping Malls</item>
+        <item>Theaters</item>
+    </string-array>
+
+    <string-array name="cities">
+        <item>New York</item>
+        <item>London</item>
+        <item>Tokyo</item>
+        <item>Paris</item>
+        <item>Sydney</item>
+        <item>Near me</item>
+    </string-array>
+
+</resources>

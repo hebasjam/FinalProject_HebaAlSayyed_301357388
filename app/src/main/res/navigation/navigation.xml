@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation"
+    app:startDestination="@id/signInFragment">
+
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.example.finalproject_hebaalsayyed_301357388.presentation.authentication.SignInFragment"
+        android:label="SignInFragment" >
+        <action
+            android:id="@+id/action_signInFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment" />
+        <action
+            android:id="@+id/action_signInFragment_to_optionsFragment"
+            app:destination="@id/fragmentOptions" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.example.finalproject_hebaalsayyed_301357388.presentation.authentication.SignUpFragment"
+        android:label="SignUpFragment" />
+    <fragment
+        android:id="@+id/fragmentOptions"
+        android:name="com.example.finalproject_hebaalsayyed_301357388.presentation.options.FragmentOptions"
+        android:label="fragmentOptions" >
+        <action
+            android:id="@+id/action_optionsFragment_to_fragmentChatting"
+            app:destination="@id/fragmentChatting" />
+        <action
+            android:id="@+id/action_optionsFragment_to_fragmentPlacesLocator"
+            app:destination="@id/fragmentPlacesLocator" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentChatting"
+        android:name="com.example.finalproject_hebaalsayyed_301357388.presentation.chat.FragmentChatting"
+        android:label="FragmentChatting" />
+    <fragment
+        android:id="@+id/fragmentPlacesLocator"
+        android:name="com.example.finalproject_hebaalsayyed_301357388.presentation.places.FragmentPlacesLocator"
+        android:label="FragmentPlacesLocator" >
+        <action
+            android:id="@+id/action_fragmentPlacesLocator_to_fragmentPlaceChatting"
+            app:destination="@id/fragmentPlaceChatting" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentPlaceChatting"
+        android:name="com.example.finalproject_hebaalsayyed_301357388.presentation.places.chatting.FragmentPlaceChatting"
+        android:label="FragmentPlaceChatting" >
+        <argument
+            android:name="placeChatting"
+            app:argType="string" />
+    </fragment>
+</navigation>
